@@ -86,7 +86,19 @@
           loop: true,
           stagePadding: 100,
           dots: false,
-          //   autoplay: true,
+          autoplay: true,
+          center: true,
+          responsive: {
+            0: {
+              items: 1,
+              stagePadding: 0,
+            },
+            800: {
+              items: 1,
+              margin: 50,
+              stagePadding: 100,
+            },
+          },
         });
       });
     </script>
