@@ -43,6 +43,10 @@ h3::after {
   content: "-";
 }
 
+h3 {
+    color: yellow;
+}
+
 q {
   padding-top: 2%;
 }
