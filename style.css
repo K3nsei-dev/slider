@@ -34,6 +34,19 @@ body {
   padding: 10%;
 }
 
+h2 {
+  padding-bottom: 1%;
+}
+
+h3::before,
+h3::after {
+  content: "-";
+}
+
+q {
+  padding-top: 2%;
+}
+
 .text {
   display: flex;
   flex-direction: column;
